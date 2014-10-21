@@ -41,5 +41,9 @@
   "dependencies": {
     "app-root-path": "^0.1.0",
     "underscore": "^1.7.0"
-  }
+  },
+  "repository": {
+   "type": "git",
+   "url": "git://github.com/jpatel531/node-heroku-secrets.git"
+ }
 }
