@@ -1,0 +1,45 @@
+{
+  "name": "node-heroku-secrets",
+  "description": "Setting Heroku environment variables from secrets.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jpatel531/node-heroku-secrets",
+  "author": {
+    "name": "jpatel531",
+    "email": "jamie@notespublication.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jpatel531/node-heroku-secrets.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpatel531/node-heroku-secrets/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jpatel531/node-heroku-secrets/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/node-heroku-secrets",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "nsecrets": "lib/node-heroku-secrets.js"
+  },
+  "dependencies": {
+    "app-root-path": "^0.1.0",
+    "underscore": "^1.7.0"
+  }
+}
