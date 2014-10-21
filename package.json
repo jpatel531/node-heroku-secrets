@@ -1,7 +1,7 @@
 {
   "name": "node-heroku-secrets",
   "description": "Setting Heroku environment variables from secrets.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/jpatel531/node-heroku-secrets",
   "author": {
     "name": "jpatel531",
@@ -39,7 +39,7 @@
     "nsecrets": "lib/node-heroku-secrets.js"
   },
   "dependencies": {
-    "app-root-path": "^0.1.0"
+    "underscore": "^1.7.0"
   },
   "repository": {
    "type": "git",
