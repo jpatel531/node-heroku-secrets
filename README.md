@@ -1,14 +1,15 @@
 # node-heroku-secrets
 
-Setting Heroku environment variables from secrets.js
+Setting Heroku environment variables from secrets.js.
 
 ## Getting Started
-Install the module with: `npm install node-heroku-secrets`
+Install the module with: `npm install -g node-heroku-secrets`
 
-```javascript
-var node_heroku_secrets = require('node-heroku-secrets');
-node_heroku_secrets.awesome(); // "awesome"
+```sh
+nsecrets path/to/file
 ```
+
+e.g. `nsecrets config/secrets.js`
 
 ## Documentation
 _(Coming soon)_
