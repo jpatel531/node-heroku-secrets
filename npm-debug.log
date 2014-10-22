@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/opt/nvm/v0.10.32/bin/node',
+1 verbose cli   '/usr/local/opt/nvm/v0.10.32/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/opt/nvm/v0.10.32/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/jamiepatel/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package.tgz
+13 verbose folder .
+14 info prepublish node-heroku-secrets@0.0.3
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/jamiepatel/.npm/1f1177db-tar.lock
+17 silly lockFile 6fc73053-heroku-secrets-0-0-3-package-tgz tar:///Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package.tgz
+18 verbose lock tar:///Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package.tgz /Users/jamiepatel/.npm/6fc73053-heroku-secrets-0-0-3-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 6fc73053-heroku-secrets-0-0-3-package-tgz tar:///Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package.tgz
+22 silly lockFile 6fc73053-heroku-secrets-0-0-3-package-tgz tar:///Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package.tgz
+23 silly lockFile 8cddcef4-ode-heroku-secrets-0-0-3-package /Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package
+24 verbose lock /Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package /Users/jamiepatel/.npm/8cddcef4-ode-heroku-secrets-0-0-3-package.lock
+25 silly lockFile 8cddcef4-ode-heroku-secrets-0-0-3-package /Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package
+26 silly lockFile 8cddcef4-ode-heroku-secrets-0-0-3-package /Users/jamiepatel/.npm/node-heroku-secrets/0.0.3/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'node-heroku-secrets',
+29 silly publish   description: 'Setting Heroku environment variables from secrets.js',
+29 silly publish   version: '0.0.3',
+29 silly publish   homepage: 'https://github.com/jpatel531/node-heroku-secrets',
+29 silly publish   author: { name: 'jpatel531', email: 'jamie@notespublication.com' },
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'git://github.com/jpatel531/node-heroku-secrets.git' },
+29 silly publish   bugs: { url: 'https://github.com/jpatel531/node-heroku-secrets/issues' },
+29 silly publish   licenses:
+29 silly publish    [ { type: 'MIT',
+29 silly publish        url: 'https://github.com/jpatel531/node-heroku-secrets/blob/master/LICENSE-MIT' } ],
+29 silly publish   main: 'lib/node-heroku-secrets',
+29 silly publish   engines: { node: '>= 0.8.0' },
+29 silly publish   scripts: { test: 'grunt nodeunit' },
+29 silly publish   devDependencies:
+29 silly publish    { 'grunt-contrib-jshint': '~0.6.4',
+29 silly publish      'grunt-contrib-nodeunit': '~0.2.0',
+29 silly publish      'grunt-contrib-watch': '~0.5.3',
+29 silly publish      grunt: '~0.4.5' },
+29 silly publish   keywords: [],
+29 silly publish   preferGlobal: 'true',
+29 silly publish   bin: { nsecrets: 'lib/node-heroku-secrets.js' },
+29 silly publish   dependencies: { underscore: '^1.7.0' },
+29 silly publish   readme: '# node-heroku-secrets\n\nSetting Heroku environment variables from secrets.js.\n\n## Getting Started\nInstall the module with: `npm install -g node-heroku-secrets`\n\n```sh\nnsecrets path/to/file\n```\n\ne.g. `nsecrets config/secrets.js`\n\n## Documentation\n_(Coming soon)_\n\n## Examples\n_(Coming soon)_\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n## Release History\n_(Nothing yet)_\n\n## License\nCopyright (c) 2014 jpatel531  \nLicensed under the MIT license.\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: 'fb83e58928371ab6b1312547fc5057ee39bcee17',
+29 silly publish   _id: 'node-heroku-secrets@0.0.3',
+29 silly publish   _shasum: 'bdfd914d865744b9b70ed19f36cc4de9b5541b5e',
+29 silly publish   _from: '.' }
+30 verbose request where is /node-heroku-secrets
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id ec5f3ccbcbbe984a
+33 verbose url raw /node-heroku-secrets
+34 verbose url resolving [ 'https://registry.npmjs.org/', './node-heroku-secrets' ]
+35 verbose url resolved https://registry.npmjs.org/node-heroku-secrets
+36 verbose request where is https://registry.npmjs.org/node-heroku-secrets
+37 info trying registry request attempt 1 at 09:49:24
+38 http PUT https://registry.npmjs.org/node-heroku-secrets
+39 http 403 https://registry.npmjs.org/node-heroku-secrets
+40 verbose headers { date: 'Wed, 22 Oct 2014 08:49:24 GMT',
+40 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 verbose headers   'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=60',
+40 verbose headers   'content-length': '3871',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   'x-served-by': 'cache-lcy1126-LCY',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1413967764.570395,VS0,VE157',
+40 verbose headers   'keep-alive': 'timeout=10, max=50',
+40 verbose headers   connection: 'Keep-Alive' }
+41 error publish Failed PUT 403
+42 error Error: forbidden cannot modify pre-existing version: 0.0.3
+42 error old={"name":"node-heroku-secrets","description":"Setting Heroku environment variables from secrets.js","version":"0.0.3","homepage":"https://github.com/jpatel531/node-heroku-secrets","author":{"name":"jpatel531","email":"jamie@notespublication.com"},"repository":{"type":"git","url":"git://github.com/jpatel531/node-heroku-secrets.git"},"bugs":{"url":"https://github.com/jpatel531/node-heroku-secrets/issues"},"licenses":[{"type":"MIT","url":"https://github.com/jpatel531/node-heroku-secrets/blob/master/LICENSE-MIT"}],"main":"lib/node-heroku-secrets","engines":{"node":">= 0.8.0"},"scripts":{"test":"grunt nodeunit"},"devDependencies":{"grunt-contrib-jshint":"~0.6.4","grunt-contrib-nodeunit":"~0.2.0","grunt-contrib-watch":"~0.5.3","grunt":"~0.4.5"},"keywords":[],"preferGlobal":"true","bin":{"nsecrets":"lib/node-heroku-secrets.js"},"dependencies":{"underscore":"^1.7.0"},"gitHead":"d616066697e3cddf5bfe2a48c4696ab094e1c24b","_id":"node-heroku-secrets@0.0.3","_shasum":"8157187a08a8dee3f7691d5dbb36429f7bc07146","_from":".","_npmVersion":"2.0.0-alpha-5","_npmUser":{"name":"jpatel531","email":"jamie@pusher.com"},"maintainers":[{"name":"jpatel531","email":"jamie@pusher.com"}],"dist":{"shasum":"8157187a08a8dee3f7691d5dbb36429f7bc07146","tarball":"http://registry.npmjs.org/node-heroku-secrets/-/node-heroku-secrets-0.0.3.tgz"}}
+42 error new={"name":"node-heroku-secrets","description":"Setting Heroku environment variables from secrets.js","version":"0.0.3","homepage":"https://github.com/jpatel531/node-heroku-secrets","author":{"name":"jpatel531","email":"jamie@notespublication.com"},"repository":{"type":"git","url":"git://github.com/jpatel531/node-heroku-secrets.git"},"bugs":{"url":"https://github.com/jpatel531/node-heroku-secrets/issues"},"licenses":[{"type":"MIT","url":"https://github.com/jpatel531/node-heroku-secrets/blob/master/LICENSE-MIT"}],"main":"lib/node-heroku-secrets","engines":{"node":">= 0.8.0"},"scripts":{"test":"grunt nodeunit"},"devDependencies":{"grunt-contrib-jshint":"~0.6.4","grunt-contrib-nodeunit":"~0.2.0","grunt-contrib-watch":"~0.5.3","grunt":"~0.4.5"},"keywords":[],"preferGlobal":"true","bin":{"nsecrets":"lib/node-heroku-secrets.js"},"dependencies":{"underscore":"^1.7.0"},"readme":"# node-heroku-secrets\u000a\u000aSetting Heroku environment variables from secrets.js.\u000a\u000a## Getting Started\u000aInstall the module with: `npm install -g node-heroku-secrets`\u000a\u000a```sh\u000ansecrets path/to/file\u000a```\u000a\u000ae.g. `nsecrets config/secrets.js`\u000a\u000a## Documentation\u000a_(Coming soon)_\u000a\u000a## Examples\u000a_(Coming soon)_\u000a\u000a## Contributing\u000aIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\u000a\u000a## Release History\u000a_(Nothing yet)_\u000a\u000a## License\u000aCopyright (c) 2014 jpatel531  \u000aLicensed under the MIT license.\u000a","readmeFilename":"README.md","gitHead":"fb83e58928371ab6b1312547fc5057ee39bcee17","_id":"node-heroku-secrets@0.0.3","_shasum":"bdfd914d865744b9b70ed19f36cc4de9b5541b5e","_from":".","_npmVersion":"1.4.28","_npmUser":{"name":"jpatel531","email":"jamie@pusher.com"},"maintainers":[{"name":"jpatel531","email":"jamie@pusher.com"}],"dist":{"shasum":"bdfd914d865744b9b70ed19f36cc4de9b5541b5e","tarball":"http://registry.npmjs.org/node-heroku-secrets/-/node-heroku-secrets-0.0.3.tgz"}}: node-heroku-secrets
+42 error     at RegClient.<anonymous> (/usr/local/Cellar/nvm/0.17.2/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+42 error     at Request._callback (/usr/local/Cellar/nvm/0.17.2/v0.10.32/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+42 error     at Request.self.callback (/usr/local/Cellar/nvm/0.17.2/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (/usr/local/Cellar/nvm/0.17.2/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (/usr/local/Cellar/nvm/0.17.2/v0.10.32/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Darwin 13.3.0
+45 error command "/usr/local/opt/nvm/v0.10.32/bin/node" "/usr/local/opt/nvm/v0.10.32/bin/npm" "publish"
+46 error cwd /Users/jamiepatel/Desktop/projects/node-heroku-secrets
+47 error node -v v0.10.32
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]
